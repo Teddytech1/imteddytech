@@ -15,7 +15,7 @@ cmd({
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        let dec = `╭━━〔 𓅓 *${config.BOT_NAME}* 〕━━┈⊷
+        let dec = `╭━━〔 𓅓 ${config.BOT_NAME} 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ *Owner :* ${config.OWNER_NAME}
 ┃➽ *Prefix :* [${config.PREFIX}]
@@ -23,7 +23,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ *Version :* 3.0.1
 ┃➽ *Runtime :* ${runtime(process.uptime())}
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*DOWNLOAD MENU* 〕
+╭━━〔 DOWNLOAD MENU 〕
 ╭─────────────────·๏
 ┃➽ facebook
 ┃➽ mediafire
@@ -51,7 +51,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ ssweb
 ┃➽ tiks
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*GROUP MENU* 〕━━┈⊷
+╭━━〔 GROUP MENU 〕━━┈⊷
 ┃ ╭─────────────────·๏
 ┃➽ grouplink
 ┃➽ Opentime
@@ -89,8 +89,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ hidetag
 ┃➽ tagall
 ┃➽ tagadmins
+┃➽ tgstatus
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*REACTIONS MENU*〕━━┈⊷
+╭━━〔 REACTIONS MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ bully @tag
 ┃➽ cuddle @tag
@@ -119,7 +120,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ dance @tag
 ┃➽ cringe @tag
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*LOGO MAKER*〕━━┈⊷
+╭━━〔 LOGO MAKER 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ neonlight
 ┃➽ blackpink
@@ -153,7 +154,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ typography
 ┃➽ birthday
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*OWNER MENU*〕━━┈⊷
+╭━━〔 OWNER MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ coins
 ┃➽ virtualnumber
@@ -179,7 +180,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ gjid
 ┃➽ jid
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*FUN MENU* 〕━━┈⊷
+╭━━〔 FUN MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ shapar
 ┃➽ rate
@@ -206,7 +207,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ hifi
 ┃➽ poke
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*CONVERT MENU*━━┈⊷
+╭━━〔 CONVERT MENU ━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ sticker
 ┃➽ sticker2
@@ -228,7 +229,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ ask
 ┃➽ readmore
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*AI MENU* 〕━━┈⊷
+╭━━〔 AI MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ ai
 ┃➽ gpt3
@@ -247,7 +248,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ imagine2
 ┃➽ copilot
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*MAIN MENU* 〕━━┈⊷
+╭━━〔 MAIN MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ ping
 ┃➽ ping2
@@ -262,7 +263,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ menu2
 ┃➽ restart
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*IMAGE EDIT *〕━━┈⊷
+╭━━〔 IMAGE EDIT 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ fack
 ┃➽ truth
@@ -292,7 +293,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃➽ foxgirl
 ┃➽ naruto
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
-╭━━〔*OTHER MENU* 〕━━┈⊷
+╭━━〔 OTHER MENU 〕━━┈⊷
 ┃◈╭─────────────────·๏
 ┃➽ timenow
 ┃➽ date
