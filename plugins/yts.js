@@ -20,7 +20,7 @@ cmd(
     try {
       await reply("🔎 Searching for your song... (this may take a while)");
 
-      const apiUrl = `https://zdmzfeqrclgdjzhapdxl.supabase.co/functions/v1/api-proxy/api/audio/archive-search?query=${encodeURIComponent(
+      const apiUrl = `https://api.giftedtech.co.ke/api/download/ytmp3v2?apikey=gifted&url=${encodeURIComponent(vid.url)}&quality=128
         text
       )}`;
 
